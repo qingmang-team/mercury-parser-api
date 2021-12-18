@@ -22,7 +22,7 @@
     "test:html": "serverless invoke local --function parseHtml --path fixtures/html.json"
   },
   "dependencies": {
-    "@postlight/mercury-parser": "^2.2.1",
+    "@postlight/mercury-parser": "https://github.com/qingmang-team/mercury-parser",
     "@types/aws-lambda": "^8.10.15"
   },
   "devDependencies": {
